@@ -11,7 +11,7 @@ import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
 
 public class HttpApplication extends AbstractVerticle {
 
-  protected static final String template = "Hey boy :)   %s!";
+  protected static final String template = "Edited from browser IDE :)   %s!";
 
   @Override
   public void start(Future<Void> future) {
